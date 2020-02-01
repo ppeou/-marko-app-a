@@ -1,0 +1,14 @@
+$ const name = "Seth 2";
+$ const colors = ["red", "green", "blue"];
+
+class {
+  onCreate() {
+      this.state = { now: new Date().toString() };
+  }
+}
+
+h1 -- Hello ${name} ${state.now}
+ul.colors
+  for|color| of=colors
+    li -- ${color}
+button-counter
